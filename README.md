@@ -29,7 +29,6 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
   - Popular Algorithms:
     - Array element access
     - Hash table insertion and lookup
-    - Binary Tree Insertion
   
 - **O(log n) - Logarithmic Time:** The time complexity increases logarithmically with the input size.
 
@@ -58,7 +57,7 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 - **O((E+V)logV) - Log-linear Time (E is the number of edges, V is the number of vertices):** The time complexity of this algorithm is log-linear, meaning it increases logarithmically with the number of edges and vertices in the input. This complexity is often seen in algorithms that involve graph traversal or sorting.
 
   - Popular Algorithms:
-    - Dijkstra's Algorithm
+    - Dijkstra's Algorithm (with a binary heap)
   
 - **O(ElogE) or O(ElogV) - Log-linear Time (E is the number of edges, V is the number of vertices):** This time complexity indicates that the algorithm's performance grows logarithmically with the number of edges (E) or vertices (V) in the input. It is commonly used in algorithms that involve sorting or searching operations.
 
