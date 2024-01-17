@@ -20,6 +20,7 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
   - Popular Algorithms:
     - Array element access
     - Hash table insertion and lookup
+    - Binary Tree Insertion
   
 - **O(log n) - Logarithmic Time:** The time complexity increases logarithmically with the input size.
   - Popular Algorithms:
@@ -31,13 +32,25 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
     - Linear Search
     - Finding the maximum or minimum in an unsorted array
     - Iterating through all the elements of a list
+    - Reversing a linked list
+    - Detecting a cycle in a linked list
+    - Pre-order Tree Traversal
+    - In-order Tree Traversal
+    - Post-order Tree Traversal
   
-- **O(n log n):** Often seen in efficient sorting algorithms.
+- **O(n + m) - Linear Time (n and m are the number of nodes and edges respectively):**
   - Popular Algorithms:
-    - Merge Sort
-    - Quick Sort
-    - Heap Sort
-
+    - Depth-First Search (DFS)
+    - Breadth-First Search (BFS)
+  
+- **O((E+V)logV) - Log-linear Time (E is the number of edges, V is the number of vertices):**
+  - Popular Algorithms:
+    - Dijkstra's Algorithm
+  
+- **O(ElogE) or O(ElogV) - Log-linear Time (E is the number of edges, V is the number of vertices):**
+  - Popular Algorithms:
+    - Kruskal's Algorithm
+  
 - **O(n^2) - Quadratic Time:** Time complexity increases quadratically with the input size. Common in algorithms with nested iterations over the data.
   - Popular Algorithms:
     - Bubble Sort
