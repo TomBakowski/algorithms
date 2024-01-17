@@ -115,6 +115,10 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 
 - **Tabulation:** Optimization technique where you solve a problem by solving smaller sub-problems in a bottom-up manner and storing the results of each sub-problem in a table (usually an array or a matrix). The solution to the original problem is then computed using the solutions to the sub-problems.
 
+- **Recursion:** A method of solving problems where the solution to a particular instance of a problem is derived from the solution of smaller instances of the same problem. It involves a function calling itself until a base case is reached.
+
+- **Iteration:** A process wherein a set of instructions or structures are repeatedly executed until a certain condition is met. It is typically implemented with loops.
+
 ## Conclusion
 
 Understanding algorithms and Big O Notation is crucial for any programmer or computer scientist. This knowledge helps in writing efficient code, optimizing existing algorithms, and understanding the underpinnings of computational processes. As you delve into the world of algorithms, remember that the goal is not just to solve the problem but to do so in the most efficient way possible.
