@@ -17,17 +17,20 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 ### Big O Complexity Classes
 
 - **O(1) - Constant Time:** The algorithm takes the same amount of time to complete, regardless of the input size.
+
   - Popular Algorithms:
     - Array element access
     - Hash table insertion and lookup
     - Binary Tree Insertion
   
 - **O(log n) - Logarithmic Time:** The time complexity increases logarithmically with the input size.
+
   - Popular Algorithms:
     - Binary Search
     - Finding the largest/smallest element in a binary search tree
   
 - **O(n) - Linear Time:** The time complexity increases linearly with the input size.
+
   - Popular Algorithms:
     - Linear Search
     - Finding the maximum or minimum in an unsorted array
@@ -38,20 +41,24 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
     - In-order Tree Traversal
     - Post-order Tree Traversal
   
-- **O(n + m) - Linear Time (n and m are the number of nodes and edges respectively):**
+- **O(n + m) - Linear Time (n and m are the number of nodes and edges respectively):** The time complexity increases linearly with the sum of the number of nodes and edges in the input.
+
   - Popular Algorithms:
     - Depth-First Search (DFS)
     - Breadth-First Search (BFS)
   
-- **O((E+V)logV) - Log-linear Time (E is the number of edges, V is the number of vertices):**
+- **O((E+V)logV) - Log-linear Time (E is the number of edges, V is the number of vertices):** The time complexity of this algorithm is log-linear, meaning it increases logarithmically with the number of edges and vertices in the input. This complexity is often seen in algorithms that involve graph traversal or sorting.
+
   - Popular Algorithms:
     - Dijkstra's Algorithm
   
-- **O(ElogE) or O(ElogV) - Log-linear Time (E is the number of edges, V is the number of vertices):**
+- **O(ElogE) or O(ElogV) - Log-linear Time (E is the number of edges, V is the number of vertices):** This time complexity indicates that the algorithm's performance grows logarithmically with the number of edges (E) or vertices (V) in the input. It is commonly used in algorithms that involve sorting or searching operations.
+
   - Popular Algorithms:
     - Kruskal's Algorithm
   
 - **O(n^2) - Quadratic Time:** Time complexity increases quadratically with the input size. Common in algorithms with nested iterations over the data.
+
   - Popular Algorithms:
     - Bubble Sort
     - Insertion Sort
@@ -59,12 +66,14 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
     - Iterating through all pairs in a list (e.g., checking for duplicates)
   
 - **O(2^n) - Exponential Time:** The time complexity doubles with each addition to the input data set.
+
   - Popular Algorithms:
     - Fibonacci sequence (recursive approach)
     - Power set
     - Backtracking algorithms (e.g., solving the N-Queens problem)
   
 - **O(n!) - Factorial Time:** Extremely inefficient with large input sizes, common in algorithms that generate all permutations of a dataset.
+
   - Popular Algorithms:
     - All permutations of a given set/array
     - Solving the Traveling Salesman Problem via brute force
