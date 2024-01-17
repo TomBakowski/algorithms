@@ -8,12 +8,6 @@
 
 Big O Notation is a mathematical concept used in Computer Science to describe the performance or complexity of an algorithm. Specifically, it provides an upper bound on the time or space (memory) requirements of an algorithm in the worst-case scenario, which helps in understanding the scalability and efficiency of the algorithm.
 
-### Key Concepts
-
-- **Time Complexity:** Refers to the amount of time an algorithm takes to complete based on the length of the input. Time complexity is often expressed using Big O Notation.
-  
-- **Space Complexity:** Indicates the amount of memory space required by an algorithm as a function of the length of the input.
-
 ### Big O Complexity Classes
 
 - **O(1) - Constant Time:** The algorithm takes the same amount of time to complete, regardless of the input size.
@@ -81,7 +75,11 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 
 ## Important Definitions
 
-- **Algorithm Efficiency:** A measure of the resources an algorithm requires, considering both time and space complexity.
+- **Time Complexity:** The computational complexity that describes the amount of time an algorithm takes in terms of the amount of input to the algorithm.
+
+- **Space Complexity:** The amount of memory used by an algorithm (including the input values to the algorithm) to execute and produce the result.
+
+- **Big O Notation:** A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In computer science, it is commonly used to describe the time or space complexity of algorithms.
 
 - **Data Structures:** Ways of organizing and storing data so that it can be accessed and modified efficiently. They often affect an algorithm's performance.
 
@@ -109,8 +107,6 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 
   - **Map:** A collection of key-value pairs, where each key is unique.
 
-- **Asymptotic Analysis:** Evaluating the performance of an algorithm as the input size approaches infinity.
-
 - **Memoization:** Optimization technique where you store the results of expensive function calls and reuse them when the same inputs occur again. This can significantly improve the performance of algorithms that involve repeated computations.
 
 - **Tabulation:** Optimization technique where you solve a problem by solving smaller sub-problems in a bottom-up manner and storing the results of each sub-problem in a table (usually an array or a matrix). The solution to the original problem is then computed using the solutions to the sub-problems.
@@ -118,6 +114,22 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 - **Recursion:** A method of solving problems where the solution to a particular instance of a problem is derived from the solution of smaller instances of the same problem. It involves a function calling itself until a base case is reached.
 
 - **Iteration:** A process wherein a set of instructions or structures are repeatedly executed until a certain condition is met. It is typically implemented with loops.
+
+- **Divide and Conquer:** An algorithm design paradigm based on multi-branched recursion. A divide-and-conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly.
+
+- **Greedy Algorithm:** An algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.
+
+- **Dynamic Programming:** A method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
+
+- **Brute Force:** A very general problem-solving technique that consists of systematically enumerating all possible candidates for the solution and checking whether each candidate satisfies the problem's statement.
+
+- **Sorting Algorithm:** An algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order.
+
+- **Searching Algorithm:** An algorithm that retrieves information stored within some data structure. Examples are depth-first search and breadth-first search in a tree or graph data structure.
+
+- **Algorithm Efficiency:** A measure of the resources an algorithm requires, considering both time and space complexity.
+
+- **Asymptotic Analysis:** Evaluating the performance of an algorithm as the input size approaches infinity.
 
 ## Conclusion
 
