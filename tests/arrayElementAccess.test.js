@@ -1,6 +1,6 @@
 import { getElementByIndex, getFirstElement, getLastElement } from '../examples/arrayElementAccess';
 
-describe('Array Element Access', () => {
+describe('O(1) - Constant Time: Array Element Access', () => {
   const arr = [1, 2, 3, 4, 5];
 
   test('getElementByIndex returns the correct element', () => {
