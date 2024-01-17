@@ -1,6 +1,6 @@
 import { binarySearchIterative, binarySearchRecursive } from '../examples/binarySearch';
 
-describe('O(log n): Binary Search', () => {
+describe('O(log n) - Logarithmic Time: Binary Search', () => {
     const sortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     test('Iterative binary search should return the correct index', () => {
