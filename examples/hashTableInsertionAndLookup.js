@@ -14,7 +14,7 @@ class HashTable {
   }
 
   // Deletion operation - O(1)
-  deleteKey(key) {
+  remove(key) {
       delete this.table[key];
   }
 }

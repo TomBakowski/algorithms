@@ -19,7 +19,7 @@ describe('O(1) - Constant Time: Hash Table Insertion and Lookup', () => {
     const hashTable = new HashTable();
 
       hashTable.insert('name', 'John Doe');
-      hashTable.deleteKey('name');
+      hashTable.remove('name');
       expect(hashTable.lookup('name')).toBeUndefined();
   });
 });
