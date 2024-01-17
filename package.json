@@ -1,0 +1,14 @@
+{
+  "name": "algorithms-big-o-notation-tutorial",
+  "version": "1.0.0",
+  "description": "This project is a comprehensive guide to understanding algorithms and data structures with a focus on time and space complexity. It includes explanations of key concepts like Big O notation, time complexity, and space complexity, as well as examples of common algorithms and their time complexities. The project also contains JavaScript implementations of these algorithms for further study and testing.",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": ["<rootDir>/tests/**/*.test.js"]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
