@@ -111,6 +111,10 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 
 - **Asymptotic Analysis:** Evaluating the performance of an algorithm as the input size approaches infinity.
 
+- **Memoization:** Optimization technique where you store the results of expensive function calls and reuse them when the same inputs occur again. This can significantly improve the performance of algorithms that involve repeated computations.
+
+- **Tabulation:** Optimization technique where you solve a problem by solving smaller sub-problems in a bottom-up manner and storing the results of each sub-problem in a table (usually an array or a matrix). The solution to the original problem is then computed using the solutions to the sub-problems.
+
 ## Conclusion
 
 Understanding algorithms and Big O Notation is crucial for any programmer or computer scientist. This knowledge helps in writing efficient code, optimizing existing algorithms, and understanding the underpinnings of computational processes. As you delve into the world of algorithms, remember that the goal is not just to solve the problem but to do so in the most efficient way possible.
