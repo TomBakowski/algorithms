@@ -63,6 +63,30 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
 
 - **Data Structures:** Ways of organizing and storing data so that it can be accessed and modified efficiently. They often affect an algorithm's performance.
 
+  Here are some commonly used data structures:
+
+  - **Array:** A collection of elements stored in contiguous memory locations. Elements can be accessed using their index.
+
+  - **Linked List:** A collection of nodes where each node contains a value and a reference to the next node.
+
+  - **Stack:** A data structure that follows the Last-In-First-Out (LIFO) principle. Elements can be added or removed only from the top.
+
+  - **Queue:** A data structure that follows the First-In-First-Out (FIFO) principle. Elements can be added at the rear and removed from the front.
+
+  - **Tree:** A hierarchical data structure consisting of nodes connected by edges. Each node can have zero or more child nodes.
+
+  - **Graph:** A collection of nodes (vertices) connected by edges. It can be either directed or undirected.
+
+  - **Hash Table:** A data structure that uses a hash function to map keys to values, allowing for efficient retrieval and insertion.
+
+  - **Heap:** A complete binary tree that satisfies the heap property. It can be a min-heap (parent nodes are smaller than their children) or a max-heap (parent nodes are larger than their children).
+
+  - **Trie:** A tree-like data structure used for efficient retrieval of keys in a dataset.
+
+  - **Set:** A collection of unique elements with no specific order.
+
+  - **Map:** A collection of key-value pairs, where each key is unique.
+
 - **Asymptotic Analysis:** Evaluating the performance of an algorithm as the input size approaches infinity.
 
 ## Conclusion
