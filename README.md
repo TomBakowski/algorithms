@@ -8,6 +8,20 @@
 
 Big O Notation is a mathematical concept used in Computer Science to describe the performance or complexity of an algorithm. Specifically, it provides an upper bound on the time or space (memory) requirements of an algorithm in the worst-case scenario, which helps in understanding the scalability and efficiency of the algorithm.
 
+### Important Concepts
+
+- **Growth is with respect to the input:** The time complexity of an algorithm is typically expressed in terms of its growth rate as the size of the input increases. This is often represented using Big O notation. For example, an algorithm with a time complexity of O(n) grows linearly with the size of the input.
+
+- **Constants are dropped:** When expressing time complexity, we're usually interested in the growth rate of the algorithm as the input size increases, not the exact number of operations. Therefore, constants and smaller terms are often dropped in Big O notation. For example, if an algorithm takes 2n + 10 operations, we would say it has a time complexity of O(n), not O(2n + 10).
+
+- **Worst-case analysis:** When analyzing an algorithm's time complexity, we typically focus on the worst-case scenario. This provides an upper bound on the algorithm's runtime, helping us understand its performance under challenging conditions.
+
+- **Average case complexity:** While worst-case complexity gives us an upper bound, average-case complexity describes how the algorithm performs on average. However, it's often more difficult to calculate because it requires knowledge about the distribution of all possible inputs.
+
+- **Best case complexity:** This is the lower bound of the time complexity, representing the minimum amount of time the algorithm will take. However, it's generally not as useful as the worst-case and average-case complexity, because it represents an ideal scenario that may not occur often in practice.
+
+- **Space complexity:** In addition to time complexity, it's also important to consider an algorithm's space complexity, or the amount of memory it requires. Like time complexity, space complexity is often expressed in Big O notation.
+
 ### Big O Complexity Classes
 
 - **O(1) - Constant Time:** The algorithm takes the same amount of time to complete, regardless of the input size.
