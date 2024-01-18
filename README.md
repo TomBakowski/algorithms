@@ -47,6 +47,12 @@ Big O Notation is a mathematical concept used in Computer Science to describe th
     - Pre-order Tree Traversal
     - In-order Tree Traversal
     - Post-order Tree Traversal
+
+- **O(n log n) - Linearithmic Time:** Time complexity increases linearly with the input size multiplied by its logarithm. This is more efficient than quadratic time but less efficient than linear time, often occurring in divide and conquer algorithms.
+  
+  - Popular Algorithms:
+    - Merge Sort
+    - Heap Sort
   
 - **O(n + m) - Linear Time (n and m are the number of nodes and edges respectively):** The time complexity increases linearly with the sum of the number of nodes and edges in the input.
 
